@@ -1,0 +1,12 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using Umbraco.Web.Models
+@using System.Collections.Generic;
+@using ClientDependency.Core.Mvc
+
+@{
+    Layout = "Master.cshtml";
+    Html.RequiresCss("/css/Article-List.css");
+}
+
+@{ Html.RenderPartial("Partials/Content/_LatestArticles"); }
