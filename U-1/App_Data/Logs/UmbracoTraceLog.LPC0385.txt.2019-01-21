@@ -1,0 +1,413 @@
+﻿ 2019-01-21 09:29:58,751 [P28820/D3/T74] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:29:58,752 [P28820/D3/T74] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:29:58,752 [P28820/D3/T74] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2019-01-21 09:29:58,814 [P28820/D3/T74] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 61ms)
+ 2019-01-21 09:29:58,814 [P28820/D3/T86] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:29:58,814 [P28820/D3/T86] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:29:58,815 [P28820/D3/T86] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2019-01-21 09:29:58,815 [P28820/D3/T86] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 0ms)
+ 2019-01-21 09:30:13,719 [P28820/D3/T27] INFO  Umbraco.Core.Manifest.ManifestWatcher - manifest has changed, app pool is restarting (C:\Users\wenjunxie\Desktop\Documents\Learning\Umbraco\Umbraco\U-1\App_Plugins\ModelsBuilder\package.manifest)
+ 2019-01-21 09:30:13,744 [P28820/D3/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2019-01-21 09:30:13,744 [P28820/D3/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2019-01-21 09:30:13,750 [P28820/D3/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2019-01-21 09:30:13,750 [P28820/D3/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2019-01-21 09:30:13,750 [P28820/D3/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2019-01-21 09:30:13,751 [P28820/D3/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2019-01-21 09:30:13,752 [P28820/D3/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2019-01-21 09:30:13,752 [P28820/D3/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2019-01-21 09:30:13,752 [P28820/D3/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2019-01-21 09:30:13,765 [P28820/D3/T52] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2019-01-21 09:30:13,765 [P28820/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2019-01-21 09:30:13,766 [P28820/D3/T74] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2019-01-21 09:30:13,802 [P28820/D3/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2019-01-21 09:30:13,803 [P28820/D3/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2019-01-21 09:30:13,803 [P28820/D3/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
+ 2019-01-21 09:30:13,803 [P28820/D3/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
+ 2019-01-21 09:30:13,803 [P28820/D3/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2019-01-21 09:30:13,805 [P28820/D3/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2019-01-21 09:30:13,804 [P28820/D3/T85] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
+ 2019-01-21 09:30:13,807 [P28820/D3/T85] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2019-01-21 09:30:13,808 [P28820/D3/T73] INFO  Umbraco.Core.MainDom - Stopping...
+ 2019-01-21 09:30:13,808 [P28820/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2019-01-21 09:30:13,815 [P28820/D3/T73] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2019-01-21 09:30:13,819 [P28820/D3/T73] INFO  Umbraco.Web.ExamineStartup - Complete (took 3ms)
+ 2019-01-21 09:30:13,820 [P28820/D3/T73] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2019-01-21 09:30:15,575 [P28820/D4/T43] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.12.4 application starting on LPC0385
+ 2019-01-21 09:30:15,654 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2019-01-21 09:30:15,711 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Hash determined (took 56ms)
+ 2019-01-21 09:30:15,862 [P28820/D4/T43] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2019-01-21 09:30:15,865 [P28820/D4/T43] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2019-01-21 09:30:15,869 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:30:15,984 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 115ms)
+ 2019-01-21 09:30:15,984 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2019-01-21 09:30:15,986 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2019-01-21 09:30:16,030 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:30:16,031 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2019-01-21 09:30:16,031 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2019-01-21 09:30:16,031 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2019-01-21 09:30:16,032 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:30:16,032 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:30:16,032 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2019-01-21 09:30:16,034 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2019-01-21 09:30:16,054 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:30:16,054 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:30:16,055 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2019-01-21 09:30:16,055 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2019-01-21 09:30:16,056 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:30:16,056 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:30:16,057 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2019-01-21 09:30:16,058 [P28820/D4/T43] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2019-01-21 09:30:19,317 [P28820/D4/T43] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2019-01-21 09:30:19,777 [P28820/D4/T43] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2019-01-21 09:30:19,953 [P28820/D4/T43] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2019-01-21 09:30:20,248 [P28820/D4/T43] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2019-01-21 09:30:20,270 [P28820/D4/T43] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4998ms)
+ 2019-01-21 09:30:21,153 [P28820/D4/T92] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://u1.local.com:80/umbraco
+ 2019-01-21 09:30:21,156 [P28820/D4/T52] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://u1.local.com:80/umbraco (UmbracoModule request)
+ 2019-01-21 09:30:21,157 [P28820/D4/T92] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://u1.local.com:80/umbraco (UmbracoModule request)
+ 2019-01-21 09:30:28,925 [P28820/D4/T82] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username xwj.john@gmail.com from IP address ::1
+ 2019-01-21 09:30:28,926 [P28820/D4/T82] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: xwj.john@gmail.com logged in from IP address ::1
+ 2019-01-21 09:30:29,495 [P28820/D4/T38] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:30:29,496 [P28820/D4/T38] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:30:29,496 [P28820/D4/T38] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2019-01-21 09:30:29,496 [P28820/D4/T38] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2019-01-21 09:30:29,580 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:30:29,580 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:30:29,580 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2019-01-21 09:30:29,581 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 0ms)
+ 2019-01-21 09:30:29,606 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:30:29,607 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:30:29,607 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2019-01-21 09:30:29,607 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2019-01-21 09:30:29,611 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:30:29,612 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:30:29,612 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2019-01-21 09:30:29,613 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2019-01-21 09:30:29,644 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:30:29,644 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:30:29,644 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2019-01-21 09:30:29,645 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 0ms)
+ 2019-01-21 09:30:29,672 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:30:29,672 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:30:29,672 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2019-01-21 09:30:29,673 [P28820/D4/T86] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 0ms)
+ 2019-01-21 09:30:29,965 [P28820/D4/T89] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:30:29,965 [P28820/D4/T89] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:30:29,966 [P28820/D4/T89] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2019-01-21 09:30:29,966 [P28820/D4/T89] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2019-01-21 09:30:43,850 [P28820/D3/T53] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: UnloadAppDomainCalled
+
+_shutDownMessage=User code called UnloadAppDomain
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.UnloadAppDomain()
+   at Umbraco.Core.Manifest.ManifestWatcher.FswChanged(Object sender, FileSystemEventArgs e)
+   at System.IO.FileSystemWatcher.OnChanged(FileSystemEventArgs e)
+   at System.IO.FileSystemWatcher.CompletionStatusChanged(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* overlappedPointer)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+ 2019-01-21 09:30:46,505 [P28820/D4/T46] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:30:46,506 [P28820/D4/T46] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:30:46,506 [P28820/D4/T46] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2019-01-21 09:30:46,507 [P28820/D4/T46] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2019-01-21 09:30:46,765 [P28820/D4/T74] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:30:47,997 [P28820/D4/T53] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field max
+ 2019-01-21 09:30:50,024 [P28820/D4/T49] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:30:50,034 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:30:50,034 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:30:50,035 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:30:50,035 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:30:50,035 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:30:50,045 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:30:50,053 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:30:50,063 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:30:50,087 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:30:50,095 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:30:50,096 [P28820/D4/T56] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:30:53,931 [P28820/D4/T73] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:30:53,938 [P28820/D4/T15] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:30:53,940 [P28820/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:30:53,950 [P28820/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:30:53,956 [P28820/D4/T15] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:30:53,956 [P28820/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:30:57,311 [P28820/D4/T56] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:30:57,327 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:30:57,328 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:30:57,328 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:30:57,328 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:30:57,330 [P28820/D4/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:30:57,330 [P28820/D4/T53] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:30:57,340 [P28820/D4/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:30:57,350 [P28820/D4/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:30:57,353 [P28820/D4/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:30:57,354 [P28820/D4/T53] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:02,125 [P28820/D4/T49] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:02,137 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:31:02,138 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:31:02,138 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:31:02,138 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:31:02,138 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:02,138 [P28820/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:02,157 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:02,164 [P28820/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:02,179 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:02,188 [P28820/D4/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:02,192 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:05,030 [P28820/D4/T73] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:05,038 [P28820/D4/T76] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:31:05,038 [P28820/D4/T76] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:31:05,039 [P28820/D4/T76] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:31:05,039 [P28820/D4/T76] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:31:05,047 [P28820/D4/T89] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:05,047 [P28820/D4/T74] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:05,054 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:05,058 [P28820/D4/T74] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:05,059 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:05,068 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:07,622 [P28820/D4/T56] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:07,623 [P28820/D4/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:31:07,631 [P28820/D4/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:31:07,631 [P28820/D4/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:31:07,631 [P28820/D4/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:31:07,640 [P28820/D4/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:07,650 [P28820/D4/T92] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:07,651 [P28820/D4/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:07,657 [P28820/D4/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:07,661 [P28820/D4/T92] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:07,665 [P28820/D4/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:07,671 [P28820/D4/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:14,820 [P28820/D4/T92] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:14,821 [P28820/D4/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:31:14,822 [P28820/D4/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:31:14,822 [P28820/D4/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:31:14,822 [P28820/D4/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:31:14,820 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:14,835 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:14,841 [P28820/D4/T92] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:14,845 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:14,845 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:14,852 [P28820/D4/T73] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:17,614 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:17,614 [P28820/D4/T82] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:17,628 [P28820/D4/T15] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:17,635 [P28820/D4/T15] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:17,639 [P28820/D4/T82] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:17,641 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:19,098 [P28820/D4/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:19,111 [P28820/D4/T92] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:31:19,111 [P28820/D4/T92] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:31:19,111 [P28820/D4/T92] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:31:19,111 [P28820/D4/T92] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:31:19,120 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:19,121 [P28820/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:19,129 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:19,141 [P28820/D4/T92] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:19,146 [P28820/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:19,151 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:22,903 [P28820/D4/T15] INFO  umbraco.content - Load Xml from file...
+ 2019-01-21 09:31:22,927 [P28820/D4/T15] INFO  umbraco.content - Loaded Xml from file.
+ 2019-01-21 09:31:22,991 [P28820/D4/T89] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-20 09:31:22
+ 2019-01-21 09:31:25,330 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:25,336 [P28820/D4/T49] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:25,342 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field max
+ 2019-01-21 09:31:25,342 [P28820/D4/T73] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:25,352 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:25,352 [P28820/D4/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:25,352 [P28820/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:25,360 [P28820/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field max
+ 2019-01-21 09:31:25,362 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:25,367 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:25,368 [P28820/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:31,042 [P28820/D4/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:31,054 [P28820/D4/T89] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:31,054 [P28820/D4/T74] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:31:31,054 [P28820/D4/T74] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:31:31,054 [P28820/D4/T74] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:31:31,055 [P28820/D4/T74] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:31:31,063 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:31,065 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:31,073 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:31,073 [P28820/D4/T76] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:31,073 [P28820/D4/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:34,517 [P28820/D4/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:34,522 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:31:34,523 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:31:34,523 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:31:34,523 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:31:34,536 [P28820/D4/T76] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:34,542 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:34,547 [P28820/D4/T74] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:34,553 [P28820/D4/T74] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:34,554 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:34,558 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:34,563 [P28820/D4/T74] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:37,785 [P28820/D4/T52] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:31:37,785 [P28820/D4/T52] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:31:37,786 [P28820/D4/T52] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
+ 2019-01-21 09:31:37,786 [P28820/D4/T52] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 0ms)
+ 2019-01-21 09:31:41,333 [P28820/D4/T82] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:41,334 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:31:41,335 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:31:41,335 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:31:41,338 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:31:41,351 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:41,365 [P28820/D4/T89] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:41,374 [P28820/D4/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:41,382 [P28820/D4/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:41,383 [P28820/D4/T53] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:31:41,387 [P28820/D4/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:31:41,404 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:32:07,957 [P28820/D4/T82] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:32:07,957 [P28820/D4/T82] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:32:07,957 [P28820/D4/T82] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2019-01-21 09:32:07,958 [P28820/D4/T82] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 0ms)
+ 2019-01-21 09:33:07,946 [P28820/D4/T74] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:33:07,951 [P28820/D4/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:33:07,952 [P28820/D4/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:33:07,952 [P28820/D4/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:33:07,952 [P28820/D4/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:33:07,959 [P28820/D4/T82] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:33:07,961 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:33:07,971 [P28820/D4/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:33:07,975 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:33:07,983 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:33:07,985 [P28820/D4/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:33:10,821 [P28820/D4/T82] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:33:10,827 [P28820/D4/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:33:10,832 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:33:10,837 [P28820/D4/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:33:10,841 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:33:10,846 [P28820/D4/T82] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:33:15,966 [P28820/D4/T74] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:33:15,972 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:33:15,977 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:33:15,977 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:33:15,977 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:33:15,992 [P28820/D4/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:33:15,997 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:33:15,998 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:33:16,008 [P28820/D4/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:33:16,013 [P28820/D4/T82] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:33:16,018 [P28820/D4/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:33:16,020 [P28820/D4/T74] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:33:47,022 [P28820/D4/T41] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-21 09:33:47,023 [P28820/D4/T41] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-21 09:33:47,023 [P28820/D4/T41] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2019-01-21 09:33:47,058 [P28820/D4/T41] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 35ms)
+ 2019-01-21 09:35:11,554 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:35:11,567 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:35:11,567 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:35:11,567 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:35:11,567 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:35:11,578 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:35:11,585 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:35:11,589 [P28820/D4/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:35:11,594 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:35:11,594 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:35:11,600 [P28820/D4/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:35:11,601 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:35:17,347 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:35:17,350 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:35:17,359 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:35:17,365 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:35:17,368 [P28820/D4/T55] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:35:17,372 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:35:17,617 [P28820/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2019-01-21 09:35:23,795 [P28820/D4/T49] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:35:23,799 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:35:23,800 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:35:23,800 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:35:23,801 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:35:23,811 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:35:23,822 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:35:23,822 [P28820/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:35:23,832 [P28820/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:35:23,834 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:35:23,838 [P28820/D4/T76] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:35:26,192 [P28820/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:35:26,203 [P28820/D4/T76] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:35:26,205 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:35:26,208 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:35:26,208 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:35:26,209 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:35:26,205 [P28820/D4/T82] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:35:26,231 [P28820/D4/T56] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:35:26,231 [P28820/D4/T15] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:35:26,231 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:35:26,244 [P28820/D4/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:25,135 [P28820/D4/T63] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:25,142 [P28820/D4/T67] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:36:25,143 [P28820/D4/T67] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:36:25,145 [P28820/D4/T67] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:36:25,145 [P28820/D4/T67] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:36:25,157 [P28820/D4/T67] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:36:25,158 [P28820/D4/T63] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:25,166 [P28820/D4/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:25,167 [P28820/D4/T73] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:25,175 [P28820/D4/T41] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:36:25,180 [P28820/D4/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:36:33,785 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:33,798 [P28820/D4/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:33,799 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:36:33,799 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:36:33,799 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:36:33,799 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:36:33,805 [P28820/D4/T92] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:33,808 [P28820/D4/T74] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:33,817 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:33,822 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:36:33,830 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:36:33,830 [P28820/D4/T52] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:36:35,368 [P28820/D4/T41] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:35,372 [P28820/D4/T15] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:35,378 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:36:35,385 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:35,388 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:36:35,388 [P28820/D4/T49] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:36:35,568 [P28820/D4/T53] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2019-01-21 09:36:40,737 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:40,751 [P28820/D4/T63] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:36:40,752 [P28820/D4/T63] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:36:40,752 [P28820/D4/T63] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:36:40,752 [P28820/D4/T63] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:36:40,765 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:40,766 [P28820/D4/T50] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:40,766 [P28820/D4/T15] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:40,768 [P28820/D4/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:36:40,776 [P28820/D4/T63] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:36:40,783 [P28820/D4/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:36:40,783 [P28820/D4/T63] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:38:24,256 [P28820/D4/T76] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:38:24,260 [P28820/D4/T50] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:38:24,269 [P28820/D4/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:38:24,270 [P28820/D4/T89] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:38:24,280 [P28820/D4/T50] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:38:24,280 [P28820/D4/T89] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:38:24,531 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field tabName
+ 2019-01-21 09:38:27,689 [P28820/D4/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:38:27,697 [P28820/D4/T50] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:38:27,697 [P28820/D4/T41] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:38:27,698 [P28820/D4/T41] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:38:27,698 [P28820/D4/T41] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:38:27,698 [P28820/D4/T41] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:38:27,700 [P28820/D4/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:38:27,702 [P28820/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:38:27,713 [P28820/D4/T89] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:38:27,713 [P28820/D4/T41] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:38:27,718 [P28820/D4/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2019-01-21 09:39:00,870 [P28820/D4/T80] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2019-01-21 09:39:00,874 [P28820/D4/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2019-01-21 09:39:00,874 [P28820/D4/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2019-01-21 09:39:00,874 [P28820/D4/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2019-01-21 09:39:00,874 [P28820/D4/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2019-01-21 09:50:01,025 [P28820/D4/T86] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: xwj.john@gmail.com, IP Address: ::1
+ 2019-01-21 13:31:23,120 [P28820/D4/T148] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-20 13:31:23
+ 2019-01-21 17:37:50,657 [P28820/D4/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-20 17:37:50
+ 2019-01-21 21:37:50,736 [P28820/D4/T148] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-20 21:37:50

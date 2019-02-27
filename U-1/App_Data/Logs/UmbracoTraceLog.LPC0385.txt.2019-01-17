@@ -1,0 +1,24 @@
+﻿ 2019-01-17 03:28:02,756 [P30504/D4/T101] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-16 03:28:02
+ 2019-01-17 07:28:02,858 [P30504/D4/T26] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-16 07:28:02
+ 2019-01-17 08:13:36,615 [P30504/D4/T198] ERROR Umbraco.Web.BatchedDatabaseServerMessenger+InstructionProcessing - Failed (will repeat).
+System.Data.SqlClient.SqlException (0x80131904): There is insufficient system memory in resource pool 'internal' to run this query.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnection.BeginSqlTransaction(IsolationLevel iso, String transactionName, Boolean shouldReconnect)
+   at System.Data.SqlClient.SqlConnection.BeginTransaction(IsolationLevel iso, String transactionName)
+   at System.Data.SqlClient.SqlConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   at Umbraco.Core.Persistence.Database.BeginTransaction(IsolationLevel isolationLevel)
+   at Umbraco.Core.Scoping.Scope.get_Database()
+   at Umbraco.Core.Sync.DatabaseServerMessenger.ProcessDatabaseInstructions()
+   at Umbraco.Core.Sync.DatabaseServerMessenger.Sync()
+   at Umbraco.Web.BatchedDatabaseServerMessenger.InstructionProcessing.TryPerformRun()
+   at Umbraco.Web.BatchedDatabaseServerMessenger.InstructionProcessing.PerformRun()
+ClientConnectionId:9acaa5b3-60b6-487c-a30b-b4f649c40177
+Error Number:701,State:123,Class:17
+ 2019-01-17 11:28:02,973 [P30504/D4/T112] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-16 11:28:02
+ 2019-01-17 15:39:24,738 [P30504/D4/T102] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-16 15:39:24

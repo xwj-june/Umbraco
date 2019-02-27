@@ -1,0 +1,12 @@
+﻿ 2019-01-25 03:40:56,469 [P52032/D3/T92] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-24 03:40:56
+ 2019-01-25 07:40:56,527 [P52032/D3/T95] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-24 07:40:56
+ 2019-01-25 08:46:58,553 [P52032/D3/T18] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username xwj.john@gmail.com from IP address ::1
+ 2019-01-25 08:46:58,554 [P52032/D3/T18] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: xwj.john@gmail.com logged in from IP address ::1
+ 2019-01-25 08:46:58,568 [P52032/D3/T18] ERROR Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper - Could not validate XSRF token
+System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for user "wenjun.xie@npdc.govt.nz", but the current user is "xwj.john@gmail.com".
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+   at System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext, String cookieToken, String formToken)
+   at System.Web.Helpers.AntiForgery.Validate(String cookieToken, String formToken)
+   at Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper.ValidateTokens(String cookieToken, String headerToken)
+ 2019-01-25 09:06:29,631 [P52032/D3/T135] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: xwj.john@gmail.com, IP Address: ::1
+ 2019-01-25 11:40:56,600 [P52032/D3/T138] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-24 11:40:56
