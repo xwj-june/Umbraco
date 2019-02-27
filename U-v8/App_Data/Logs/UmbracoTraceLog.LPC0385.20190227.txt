@@ -1,0 +1,335 @@
+2019-02-27 13:46:40,806 [P23904/D2/T1] INFO   Umbraco.Core.Runtime.CoreRuntime - Booting Umbraco 8.0.0-alpha.58.1500 on LPC0385. [Timing 41896d3]
+2019-02-27 13:46:40,881 [P23904/D2/T1] DEBUG  Umbraco.Core.Runtime.CoreRuntime - Runtime: Umbraco.Web.Runtime.WebRuntime
+2019-02-27 13:46:40,925 [P23904/D2/T1] DEBUG  Umbraco.Core.Persistence.UmbracoDatabaseFactory - Configuring.
+2019-02-27 13:46:41,340 [P23904/D2/T1] DEBUG  Umbraco.Core.Persistence.UmbracoDatabaseFactory - Configured.
+2019-02-27 13:46:41,384 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Determining hash of code files on disk [Timing ea2f89a]
+2019-02-27 13:46:41,418 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Hash determined (33ms) [Timing ea2f89a]
+2019-02-27 13:46:41,642 [P23904/D2/T1] DEBUG  Umbraco.Core.Runtime.CoreRuntime - Acquiring MainDom. [Timing 37c50f7]
+2019-02-27 13:46:41,643 [P23904/D2/T1] INFO   Umbraco.Core.MainDom - Acquiring.
+2019-02-27 13:46:41,648 [P23904/D2/T1] INFO   Umbraco.Core.MainDom - Acquired.
+2019-02-27 13:46:41,648 [P23904/D2/T1] DEBUG  Umbraco.Core.Runtime.CoreRuntime - Acquired. (6ms) [Timing 37c50f7]
+2019-02-27 13:46:41,649 [P23904/D2/T1] DEBUG  Umbraco.Core.Runtime.CoreRuntime - Determining runtime level. [Timing d9f1470]
+2019-02-27 13:46:42,225 [P23904/D2/T1] DEBUG  Umbraco.Core.Persistence.UmbracoDatabaseFactory - SqlServer "V2016", DatabaseType is NPoco.DatabaseTypes.SqlServer2012DatabaseType (detected).
+2019-02-27 13:46:42,942 [P23904/D2/T1] DEBUG  Umbraco.Core.RuntimeState - Final upgrade state is {64EBCE53-E1F0-463A-B40B-E98EFCCA8AE2}, database contains {64EBCE53-E1F0-463A-B40B-E98EFCCA8AE2}
+2019-02-27 13:46:42,942 [P23904/D2/T1] DEBUG  Umbraco.Core.Runtime.CoreRuntime - Runtime level: "Run"
+2019-02-27 13:46:42,943 [P23904/D2/T1] DEBUG  Umbraco.Core.Runtime.CoreRuntime - Determined. (1293ms) [Timing d9f1470]
+2019-02-27 13:46:42,944 [P23904/D2/T1] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolving composer types. [Timing 2f23fe6]
+2019-02-27 13:46:42,947 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing 3f4a6e3]
+2019-02-27 13:46:42,958 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Assemblies changes detected, need to rescan everything.
+2019-02-27 13:46:42,958 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: scanning assemblies.
+2019-02-27 13:46:43,576 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable, caching (true).
+2019-02-27 13:46:43,577 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (629ms) [Timing 3f4a6e3]
+2019-02-27 13:46:43,577 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Components.IComposer [Timing eb98ef1]
+2019-02-27 13:46:43,577 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Components.IComposer: filtering IDiscoverable.
+2019-02-27 13:46:43,578 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Components.IComposer, caching (true).
+2019-02-27 13:46:43,578 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Components.IComposer (1ms) [Timing eb98ef1]
+2019-02-27 13:46:43,578 [P23904/D2/T1] INFO   Umbraco.Core.Runtime.CoreRuntime - Resolved. (634ms) [Timing 2f23fe6]
+2019-02-27 13:46:43,580 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.Composers - Preparing composer types. [Timing 6c5ffc0]
+2019-02-27 13:46:43,632 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.Composers - Ordered Composers: ["Umbraco.Core.Runtime.CoreRuntimeComposer","Umbraco.Web.Runtime.WebRuntimeComposer","Umbraco.Web.Cache.DistributedCacheBinderComposer","Umbraco.Core.Components.AuditEventsComposer","Umbraco.Core.Components.ManifestWatcherComposer","Umbraco.Core.Components.RelateOnCopyComposer","Umbraco.Core.Components.RelateOnTrashComposer","Umbraco.ModelsBuilder.Umbraco.ModelsBuilderComposer","Umbraco.Web.SignalR.PreviewHubComposer","Umbraco.Web.Search.ExamineComposer","Umbraco.Web.Scheduling.SchedulerComposer","Umbraco.Web.Redirects.RedirectTrackingComposer","Umbraco.Web.PublishedCache.NuCache.NuCacheComposer","Umbraco.Web.PropertyEditors.PropertyEditorsComposer","Umbraco.Web.Logging.WebProfilerComposer","Umbraco.Web.Components.BackOfficeUserAuditEventsComposer","Umbraco.Web.Components.NotificationsComposer","Umbraco.Web.Components.PublicAccessComposer","Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComposer"]
+2019-02-27 13:46:43,633 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.Composers - Prepared composer types. (52ms) [Timing 6c5ffc0]
+2019-02-27 13:46:43,634 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.Composers - Instantiating composers. [Timing 1c7fdbe]
+2019-02-27 13:46:43,637 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.Composers - Instantiated composers. (2ms) [Timing 1c7fdbe]
+2019-02-27 13:46:43,647 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.Composers - Composing composers. (log when >100ms) [Timing c8d3678]
+2019-02-27 13:46:43,683 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing cf56da7]
+2019-02-27 13:46:43,683 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: found a cached type list.
+2019-02-27 13:46:43,683 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (0ms) [Timing cf56da7]
+2019-02-27 13:46:43,683 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.PropertyEditors.IPropertyValueConverter [Timing 3bb7188]
+2019-02-27 13:46:43,684 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.PropertyEditors.IPropertyValueConverter: filtering IDiscoverable.
+2019-02-27 13:46:43,684 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.PropertyEditors.IPropertyValueConverter, caching (true).
+2019-02-27 13:46:43,684 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.PropertyEditors.IPropertyValueConverter (0ms) [Timing 3bb7188]
+2019-02-27 13:46:43,901 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Running a full, non-cached, scan for non-discoverable type System.Web.Mvc.IController (slow).
+2019-02-27 13:46:43,901 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting System.Web.Mvc.IController [Timing a31e2d1]
+2019-02-27 13:46:43,901 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting System.Web.Mvc.IController: scanning assemblies.
+2019-02-27 13:46:43,903 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got System.Web.Mvc.IController.
+2019-02-27 13:46:43,903 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got System.Web.Mvc.IController (1ms) [Timing a31e2d1]
+2019-02-27 13:46:43,903 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing 98441d7]
+2019-02-27 13:46:43,903 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: found a cached type list.
+2019-02-27 13:46:43,904 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (0ms) [Timing 98441d7]
+2019-02-27 13:46:43,904 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.Mvc.PluginController [Timing e5d9111]
+2019-02-27 13:46:43,904 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.Mvc.PluginController: filtering IDiscoverable.
+2019-02-27 13:46:43,905 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.Mvc.PluginController, caching (true).
+2019-02-27 13:46:43,906 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.Mvc.PluginController (1ms) [Timing e5d9111]
+2019-02-27 13:46:43,907 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing 1249614]
+2019-02-27 13:46:43,907 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: found a cached type list.
+2019-02-27 13:46:43,907 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (0ms) [Timing 1249614]
+2019-02-27 13:46:43,907 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.Mvc.IRenderMvcController [Timing f8a7870]
+2019-02-27 13:46:43,908 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.Mvc.IRenderMvcController: filtering IDiscoverable.
+2019-02-27 13:46:43,908 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.Mvc.IRenderMvcController, caching (true).
+2019-02-27 13:46:43,908 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.Mvc.IRenderMvcController (0ms) [Timing f8a7870]
+2019-02-27 13:46:43,908 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Running a full, non-cached, scan for non-discoverable type System.Web.Http.Controllers.IHttpController (slow).
+2019-02-27 13:46:43,908 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting System.Web.Http.Controllers.IHttpController [Timing d39c832]
+2019-02-27 13:46:43,909 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting System.Web.Http.Controllers.IHttpController: scanning assemblies.
+2019-02-27 13:46:43,910 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got System.Web.Http.Controllers.IHttpController.
+2019-02-27 13:46:43,910 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got System.Web.Http.Controllers.IHttpController (1ms) [Timing d39c832]
+2019-02-27 13:46:43,911 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing cc767af]
+2019-02-27 13:46:43,911 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: found a cached type list.
+2019-02-27 13:46:43,911 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (0ms) [Timing cc767af]
+2019-02-27 13:46:43,911 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.WebApi.UmbracoApiController [Timing c3a97e1]
+2019-02-27 13:46:43,911 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.WebApi.UmbracoApiController: filtering IDiscoverable.
+2019-02-27 13:46:43,911 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.WebApi.UmbracoApiController, caching (true).
+2019-02-27 13:46:43,911 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.WebApi.UmbracoApiController (0ms) [Timing c3a97e1]
+2019-02-27 13:46:43,915 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing b3e0715]
+2019-02-27 13:46:43,915 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: found a cached type list.
+2019-02-27 13:46:43,915 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (0ms) [Timing b3e0715]
+2019-02-27 13:46:43,915 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.Mvc.SurfaceController [Timing 2ae3861]
+2019-02-27 13:46:43,915 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.Mvc.SurfaceController: filtering IDiscoverable.
+2019-02-27 13:46:43,915 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.Mvc.SurfaceController, caching (true).
+2019-02-27 13:46:43,915 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.Mvc.SurfaceController (0ms) [Timing 2ae3861]
+2019-02-27 13:46:43,917 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing 03cce7c]
+2019-02-27 13:46:43,918 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: found a cached type list.
+2019-02-27 13:46:43,918 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (1ms) [Timing 03cce7c]
+2019-02-27 13:46:43,918 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.WebApi.UmbracoApiController [Timing 8f9ac49]
+2019-02-27 13:46:43,918 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.WebApi.UmbracoApiController: found a cached type list.
+2019-02-27 13:46:43,919 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.WebApi.UmbracoApiController (0ms) [Timing 8f9ac49]
+2019-02-27 13:46:43,927 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.Composers - Composed Umbraco.Web.Runtime.WebRuntimeComposer. (240ms) [Timing 236e5e7]
+2019-02-27 13:46:43,943 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.Composers - Composed composers. (295ms) [Timing c8d3678]
+2019-02-27 13:46:43,965 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing 6c089a9]
+2019-02-27 13:46:43,965 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: found a cached type list.
+2019-02-27 13:46:43,965 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (0ms) [Timing 6c089a9]
+2019-02-27 13:46:43,965 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.PropertyEditors.IDataEditor [Timing eae4afd]
+2019-02-27 13:46:43,965 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.PropertyEditors.IDataEditor: filtering IDiscoverable.
+2019-02-27 13:46:43,966 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.PropertyEditors.IDataEditor, caching (true).
+2019-02-27 13:46:43,966 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.PropertyEditors.IDataEditor (0ms) [Timing eae4afd]
+2019-02-27 13:46:43,966 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing b6ac633]
+2019-02-27 13:46:43,966 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: found a cached type list.
+2019-02-27 13:46:43,966 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (0ms) [Timing b6ac633]
+2019-02-27 13:46:43,967 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Cache.ICacheRefresher [Timing ee09f5c]
+2019-02-27 13:46:43,967 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Cache.ICacheRefresher: filtering IDiscoverable.
+2019-02-27 13:46:43,967 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Cache.ICacheRefresher, caching (true).
+2019-02-27 13:46:43,967 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Cache.ICacheRefresher (0ms) [Timing ee09f5c]
+2019-02-27 13:46:43,967 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing de12c2e]
+2019-02-27 13:46:43,968 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: found a cached type list.
+2019-02-27 13:46:43,968 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (0ms) [Timing de12c2e]
+2019-02-27 13:46:43,968 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core._Legacy.PackageActions.IPackageAction [Timing 02ad71b]
+2019-02-27 13:46:43,968 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core._Legacy.PackageActions.IPackageAction: filtering IDiscoverable.
+2019-02-27 13:46:43,968 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core._Legacy.PackageActions.IPackageAction, caching (true).
+2019-02-27 13:46:43,968 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core._Legacy.PackageActions.IPackageAction (0ms) [Timing 02ad71b]
+2019-02-27 13:46:43,969 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing 316c7fc]
+2019-02-27 13:46:43,969 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: found a cached type list.
+2019-02-27 13:46:43,969 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (0ms) [Timing 316c7fc]
+2019-02-27 13:46:43,969 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Migrations.IPostMigration [Timing 4a89bed]
+2019-02-27 13:46:43,970 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Migrations.IPostMigration: filtering IDiscoverable.
+2019-02-27 13:46:43,970 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Migrations.IPostMigration, caching (true).
+2019-02-27 13:46:43,970 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Migrations.IPostMigration (0ms) [Timing 4a89bed]
+2019-02-27 13:46:43,971 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing a4dc614]
+2019-02-27 13:46:43,971 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: found a cached type list.
+2019-02-27 13:46:43,971 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (0ms) [Timing a4dc614]
+2019-02-27 13:46:43,971 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.Trees.ISearchableTree [Timing 3aaafc8]
+2019-02-27 13:46:43,971 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.Trees.ISearchableTree: filtering IDiscoverable.
+2019-02-27 13:46:43,972 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.Trees.ISearchableTree, caching (true).
+2019-02-27 13:46:43,972 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.Trees.ISearchableTree (0ms) [Timing 3aaafc8]
+2019-02-27 13:46:43,973 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing 9e2144b]
+2019-02-27 13:46:43,974 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: found a cached type list.
+2019-02-27 13:46:43,974 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (0ms) [Timing 9e2144b]
+2019-02-27 13:46:43,974 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.Editors.IEditorValidator [Timing c3a7003]
+2019-02-27 13:46:43,974 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.Editors.IEditorValidator: filtering IDiscoverable.
+2019-02-27 13:46:43,974 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.Editors.IEditorValidator, caching (true).
+2019-02-27 13:46:43,974 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.Editors.IEditorValidator (0ms) [Timing c3a7003]
+2019-02-27 13:46:43,976 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing 1c55795]
+2019-02-27 13:46:43,976 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: found a cached type list.
+2019-02-27 13:46:43,976 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (0ms) [Timing 1c55795]
+2019-02-27 13:46:43,977 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.Actions.IAction [Timing 05499cc]
+2019-02-27 13:46:43,977 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.Actions.IAction: filtering IDiscoverable.
+2019-02-27 13:46:43,977 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.Actions.IAction, caching (true).
+2019-02-27 13:46:43,977 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.Actions.IAction (0ms) [Timing 05499cc]
+2019-02-27 13:46:43,982 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing 914f85e]
+2019-02-27 13:46:43,982 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: found a cached type list.
+2019-02-27 13:46:43,982 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (0ms) [Timing 914f85e]
+2019-02-27 13:46:43,982 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.HealthCheck.HealthCheck [Timing 2f22a71]
+2019-02-27 13:46:43,982 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.HealthCheck.HealthCheck: filtering IDiscoverable.
+2019-02-27 13:46:43,982 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.HealthCheck.HealthCheck, caching (true).
+2019-02-27 13:46:43,982 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.HealthCheck.HealthCheck (0ms) [Timing 2f22a71]
+2019-02-27 13:46:43,983 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable [Timing c676712]
+2019-02-27 13:46:43,983 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Composing.IDiscoverable: found a cached type list.
+2019-02-27 13:46:43,983 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Composing.IDiscoverable (0ms) [Timing c676712]
+2019-02-27 13:46:43,983 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.HealthCheck.NotificationMethods.IHealthCheckNotificationMethod [Timing 810dd41]
+2019-02-27 13:46:43,983 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Web.HealthCheck.NotificationMethods.IHealthCheckNotificationMethod: filtering IDiscoverable.
+2019-02-27 13:46:43,984 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.HealthCheck.NotificationMethods.IHealthCheckNotificationMethod, caching (true).
+2019-02-27 13:46:43,984 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Web.HealthCheck.NotificationMethods.IHealthCheckNotificationMethod (0ms) [Timing 810dd41]
+2019-02-27 13:46:44,052 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.ComponentCollectionBuilder - Creating components. (log when >100ms) [Timing bd7d07a]
+2019-02-27 13:46:44,493 [P23904/D2/T11] DEBUG  Umbraco.Core.Composing.TypeLoader - Writing cache file.
+2019-02-27 13:46:45,696 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.Composers - Created Umbraco.Core.Runtime.CoreRuntimeComponent. (1640ms) [Timing 05c852c]
+2019-02-27 13:46:45,699 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Running a full, cached, scan for non-discoverable type Umbraco.Core.Models.PublishedContent.PublishedElementModel (slow).
+2019-02-27 13:46:45,700 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Models.PublishedContent.PublishedElementModel [Timing 96711b1]
+2019-02-27 13:46:45,700 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Models.PublishedContent.PublishedElementModel: scanning assemblies.
+2019-02-27 13:46:45,702 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Models.PublishedContent.PublishedElementModel, caching (true).
+2019-02-27 13:46:45,702 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Models.PublishedContent.PublishedElementModel (2ms) [Timing 96711b1]
+2019-02-27 13:46:45,702 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Running a full, cached, scan for non-discoverable type Umbraco.Core.Models.PublishedContent.PublishedContentModel (slow).
+2019-02-27 13:46:45,702 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Models.PublishedContent.PublishedContentModel [Timing a2b3bf1]
+2019-02-27 13:46:45,702 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Getting Umbraco.Core.Models.PublishedContent.PublishedContentModel: scanning assemblies.
+2019-02-27 13:46:45,704 [P23904/D2/T1] DEBUG  Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Models.PublishedContent.PublishedContentModel, caching (true).
+2019-02-27 13:46:45,704 [P23904/D2/T1] INFO   Umbraco.Core.Composing.TypeLoader - Got Umbraco.Core.Models.PublishedContent.PublishedContentModel (2ms) [Timing a2b3bf1]
+2019-02-27 13:46:46,210 [P23904/D2/T12] DEBUG  Umbraco.Core.Composing.TypeLoader - Writing cache file.
+2019-02-27 13:46:47,322 [P23904/D2/T1] DEBUG  Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading content from local db...
+2019-02-27 13:46:47,387 [P23904/D2/T1] DEBUG  Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loaded content from local db (64ms)
+2019-02-27 13:46:48,129 [P23904/D2/T1] DEBUG  Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loading media from local db...
+2019-02-27 13:46:48,130 [P23904/D2/T1] DEBUG  Umbraco.Web.PublishedCache.NuCache.PublishedSnapshotService - Loaded media from local db (0ms)
+2019-02-27 13:46:48,168 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.Composers - Created Umbraco.Web.Runtime.WebRuntimeComponent. (2472ms) [Timing 0867780]
+2019-02-27 13:46:48,219 [P23904/D2/T1] INFO   Umbraco.Web.Logging.WebProfilerComponent - Profiler is VoidProfiler, not profiling (must run debug mode to profile).
+2019-02-27 13:46:48,277 [P23904/D2/T1] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Starting
+2019-02-27 13:46:48,277 [P23904/D2/T1] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Starting
+2019-02-27 13:46:48,277 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.ComponentCollectionBuilder - Created. (4225ms) [Timing bd7d07a]
+2019-02-27 13:46:48,279 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.ComponentCollection - Initializing. (log components when >100ms) [Timing 7b9a9c8]
+2019-02-27 13:46:48,299 [P23904/D2/T11] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Stopping
+2019-02-27 13:46:48,299 [P23904/D2/T9] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Stopping
+2019-02-27 13:46:48,439 [P23904/D2/T1] DEBUG  Umbraco.Web.Search.ExamineComponent - Examine shutdown registered with MainDom
+2019-02-27 13:46:48,451 [P23904/D2/T1] INFO   Umbraco.Web.Search.ExamineComponent - Adding examine event handlers for 3 index providers.
+2019-02-27 13:46:48,455 [P23904/D2/T1] INFO   Umbraco.Examine.ExamineExtensions - Forcing index MembersIndex to be unlocked since it was left in a locked state
+2019-02-27 13:46:48,466 [P23904/D2/T1] INFO   Umbraco.Examine.ExamineExtensions - Forcing index ExternalIndex to be unlocked since it was left in a locked state
+2019-02-27 13:46:48,469 [P23904/D2/T1] INFO   Umbraco.Examine.ExamineExtensions - Forcing index InternalIndex to be unlocked since it was left in a locked state
+2019-02-27 13:46:48,472 [P23904/D2/T1] INFO   Umbraco.Web.Search.ExamineComponent - Starting initialize async background thread.
+2019-02-27 13:46:48,473 [P23904/D2/T1] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Task added Umbraco.Web.Search.ExamineComponent+RebuildOnStartupTask
+2019-02-27 13:46:48,485 [P23904/D2/T1] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Starting
+2019-02-27 13:46:48,485 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.ComponentCollection - Initialized Umbraco.Web.Search.ExamineComponent. (143ms) [Timing 5871d32]
+2019-02-27 13:46:48,502 [P23904/D2/T1] INFO   Umbraco.Web.Cache.DistributedCacheBinderComponent - Initializing Umbraco internal event handlers for cache refreshing.
+2019-02-27 13:46:48,779 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.ComponentCollection - Initialized Umbraco.Web.Runtime.WebRuntimeComponent. (252ms) [Timing 507e284]
+2019-02-27 13:46:49,402 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.ComponentCollection - Initialized Umbraco.Core.Runtime.CoreRuntimeComponent. (622ms) [Timing f0fa12e]
+2019-02-27 13:46:49,402 [P23904/D2/T1] DEBUG  Umbraco.Core.Components.ComponentCollection - Initialized. (1123ms) [Timing 7b9a9c8]
+2019-02-27 13:46:49,402 [P23904/D2/T1] INFO   Umbraco.Core.Runtime.CoreRuntime - Booted. (8604ms) [Timing 41896d3]
+2019-02-27 13:46:50,041 [P23904/D2/T11] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - New url http://localhost:50719/umbraco detected, re-discovering application url.
+2019-02-27 13:46:50,045 [P23904/D2/T11] INFO   Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:50719/umbraco (UmbracoModule request)
+2019-02-27 13:46:53,652 [P23904/D2/T10] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [RebuildIndexesOnStartup]  Stopping
+2019-02-27 13:47:03,567 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:47:03,567 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Starting
+2019-02-27 13:47:03,567 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+TouchServerTask
+2019-02-27 13:47:03,568 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Starting
+2019-02-27 13:47:03,569 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.SchedulerComponent - Initializing the scheduler
+2019-02-27 13:47:03,569 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Task added Umbraco.Web.Scheduling.KeepAlive
+2019-02-27 13:47:03,570 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Starting
+2019-02-27 13:47:03,570 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Task added Umbraco.Web.Scheduling.ScheduledPublishing
+2019-02-27 13:47:03,570 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Starting
+2019-02-27 13:47:03,570 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Task added Umbraco.Web.Scheduling.ScheduledTasks
+2019-02-27 13:47:03,570 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Starting
+2019-02-27 13:47:03,571 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Task added Umbraco.Web.Scheduling.LogScrubber
+2019-02-27 13:47:03,571 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Starting
+2019-02-27 13:47:03,576 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - FindDomain: Uri="http://localhost:50719/"
+2019-02-27 13:47:03,586 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - FindDomain: Matches no domain
+2019-02-27 13:47:03,586 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - FindDomain: Culture=en-US
+2019-02-27 13:47:03,587 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - FindPublishedContentAndTemplate: Path=/
+2019-02-27 13:47:03,589 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - FindPublishedContent: Begin finders [Timing a8c29e6]
+2019-02-27 13:47:03,590 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - Finder Umbraco.Web.Routing.ContentFinderByPageIdQuery
+2019-02-27 13:47:03,594 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - Finder Umbraco.Web.Routing.ContentFinderByUrl
+2019-02-27 13:47:03,596 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.ContentFinderByUrl - Test route /
+2019-02-27 13:47:03,615 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.ContentFinderByUrl - Got content, id=1054
+2019-02-27 13:47:03,615 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - FindPublishedContent: End finders, no document was found (26ms) [Timing a8c29e6]
+2019-02-27 13:47:03,616 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - HandlePublishedContent: Loop 0
+2019-02-27 13:47:03,661 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - EnsurePublishedContentAccess: Page is not protected
+2019-02-27 13:47:03,661 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - HandlePublishedContent: End
+2019-02-27 13:47:03,664 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - GetTemplateModel: Get template id=1053
+2019-02-27 13:47:03,669 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - GetTemplateModel: Got template id=1053 alias=home
+2019-02-27 13:47:03,671 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - FindTemplate: Running with template id=1053 alias=home
+2019-02-27 13:47:03,672 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - HandleWildcardDomains: Path=-1,1054
+2019-02-27 13:47:03,676 [P23904/D2/T12] DEBUG  Umbraco.Web.Routing.PublishedRouter - HandleWildcardDomains: No match.
+2019-02-27 13:47:03,768 [P23904/D2/T12] DEBUG  Umbraco.Web.UmbracoModule - Response status: Redirect=none, Is404=false, StatusCode=0
+2019-02-27 13:47:18,639 [P23904/D2/T8] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+TouchServerTask
+2019-02-27 13:48:03,576 [P23904/D2/T12] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 1c0bce7]
+2019-02-27 13:48:03,596 [P23904/D2/T8] DEBUG  Umbraco.Web.Scheduling.LogScrubber - Log scrubbing executing [Timing a9f72e6]
+2019-02-27 13:48:03,597 [P23904/D2/T11] DEBUG  Umbraco.Web.Scheduling.ScheduledTasks - Scheduled tasks executing [Timing c1ebbaa]
+2019-02-27 13:48:03,605 [P23904/D2/T11] DEBUG  Umbraco.Web.Scheduling.ScheduledTasks - Scheduled tasks complete (7ms) [Timing c1ebbaa]
+2019-02-27 13:48:03,605 [P23904/D2/T11] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Task added Umbraco.Web.Scheduling.ScheduledTasks
+2019-02-27 13:48:03,608 [P23904/D2/T11] DEBUG  Umbraco.Web.Scheduling.KeepAlive - Keep alive executing [Timing 0743987]
+2019-02-27 13:48:03,619 [P23904/D2/T8] DEBUG  Umbraco.Web.Scheduling.LogScrubber - Log scrubbing complete (22ms) [Timing a9f72e6]
+2019-02-27 13:48:03,619 [P23904/D2/T8] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber]  Task added Umbraco.Web.Scheduling.LogScrubber
+2019-02-27 13:48:03,619 [P23904/D2/T12] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (42ms) [Timing 1c0bce7]
+2019-02-27 13:48:03,619 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:48:03,732 [P23904/D2/T9] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Task added Umbraco.Web.Scheduling.ScheduledPublishing
+2019-02-27 13:48:04,082 [P23904/D2/T15] DEBUG  Umbraco.Web.Scheduling.KeepAlive - Keep alive complete (473ms) [Timing 0743987]
+2019-02-27 13:48:04,082 [P23904/D2/T15] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive]  Task added Umbraco.Web.Scheduling.KeepAlive
+2019-02-27 13:48:08,620 [P23904/D2/T11] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 7d329f5]
+2019-02-27 13:48:08,622 [P23904/D2/T11] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (1ms) [Timing 7d329f5]
+2019-02-27 13:48:08,622 [P23904/D2/T11] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:48:13,634 [P23904/D2/T8] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 3ac45af]
+2019-02-27 13:48:13,637 [P23904/D2/T8] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (2ms) [Timing 3ac45af]
+2019-02-27 13:48:13,637 [P23904/D2/T8] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:48:18,646 [P23904/D2/T9] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 465f37f]
+2019-02-27 13:48:18,650 [P23904/D2/T9] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (4ms) [Timing 465f37f]
+2019-02-27 13:48:18,650 [P23904/D2/T9] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:48:18,658 [P23904/D2/T11] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+TouchServerTask
+2019-02-27 13:48:23,664 [P23904/D2/T13] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing bbbe025]
+2019-02-27 13:48:23,665 [P23904/D2/T13] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (1ms) [Timing bbbe025]
+2019-02-27 13:48:23,665 [P23904/D2/T13] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:48:28,678 [P23904/D2/T9] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing d1f3c9b]
+2019-02-27 13:48:28,679 [P23904/D2/T9] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (1ms) [Timing d1f3c9b]
+2019-02-27 13:48:28,679 [P23904/D2/T9] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:48:33,679 [P23904/D2/T16] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 5b050bd]
+2019-02-27 13:48:33,682 [P23904/D2/T16] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (2ms) [Timing 5b050bd]
+2019-02-27 13:48:33,682 [P23904/D2/T16] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:48:38,693 [P23904/D2/T21] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 2d9d215]
+2019-02-27 13:48:38,706 [P23904/D2/T21] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (12ms) [Timing 2d9d215]
+2019-02-27 13:48:38,706 [P23904/D2/T21] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:48:43,717 [P23904/D2/T7] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing a585cba]
+2019-02-27 13:48:43,731 [P23904/D2/T7] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (13ms) [Timing a585cba]
+2019-02-27 13:48:43,731 [P23904/D2/T7] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:48:48,732 [P23904/D2/T17] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 108d05c]
+2019-02-27 13:48:48,734 [P23904/D2/T17] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (1ms) [Timing 108d05c]
+2019-02-27 13:48:48,734 [P23904/D2/T17] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:48:53,741 [P23904/D2/T12] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 9436e98]
+2019-02-27 13:48:53,742 [P23904/D2/T12] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (1ms) [Timing 9436e98]
+2019-02-27 13:48:53,742 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:48:58,756 [P23904/D2/T19] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 0c4def0]
+2019-02-27 13:48:58,757 [P23904/D2/T19] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (1ms) [Timing 0c4def0]
+2019-02-27 13:48:58,757 [P23904/D2/T19] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:49:03,618 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.ScheduledTasks - Scheduled tasks executing [Timing e447d57]
+2019-02-27 13:49:03,618 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.ScheduledTasks - Scheduled tasks complete (0ms) [Timing e447d57]
+2019-02-27 13:49:03,619 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Task added Umbraco.Web.Scheduling.ScheduledTasks
+2019-02-27 13:49:03,772 [P23904/D2/T17] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 591894f]
+2019-02-27 13:49:03,775 [P23904/D2/T17] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (3ms) [Timing 591894f]
+2019-02-27 13:49:03,776 [P23904/D2/T17] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:49:03,779 [P23904/D2/T7] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Task added Umbraco.Web.Scheduling.ScheduledPublishing
+2019-02-27 13:49:08,776 [P23904/D2/T7] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 7035cb8]
+2019-02-27 13:49:08,777 [P23904/D2/T7] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (1ms) [Timing 7035cb8]
+2019-02-27 13:49:08,777 [P23904/D2/T7] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:49:13,787 [P23904/D2/T17] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 4697220]
+2019-02-27 13:49:13,788 [P23904/D2/T17] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (1ms) [Timing 4697220]
+2019-02-27 13:49:13,788 [P23904/D2/T17] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:49:18,694 [P23904/D2/T17] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+TouchServerTask
+2019-02-27 13:49:18,789 [P23904/D2/T12] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 21d4722]
+2019-02-27 13:49:18,791 [P23904/D2/T12] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (2ms) [Timing 21d4722]
+2019-02-27 13:49:18,791 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:49:23,805 [P23904/D2/T12] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 0c00262]
+2019-02-27 13:49:23,806 [P23904/D2/T12] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (1ms) [Timing 0c00262]
+2019-02-27 13:49:23,806 [P23904/D2/T12] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:49:28,819 [P23904/D2/T24] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 95ff4ae]
+2019-02-27 13:49:28,821 [P23904/D2/T24] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (1ms) [Timing 95ff4ae]
+2019-02-27 13:49:28,821 [P23904/D2/T24] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:49:33,820 [P23904/D2/T27] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 32a28db]
+2019-02-27 13:49:33,824 [P23904/D2/T27] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (3ms) [Timing 32a28db]
+2019-02-27 13:49:33,824 [P23904/D2/T27] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:49:38,834 [P23904/D2/T7] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing c4fb18c]
+2019-02-27 13:49:38,836 [P23904/D2/T7] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (1ms) [Timing c4fb18c]
+2019-02-27 13:49:38,836 [P23904/D2/T7] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:49:43,837 [P23904/D2/T23] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing b3b3b57]
+2019-02-27 13:49:43,845 [P23904/D2/T23] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (7ms) [Timing b3b3b57]
+2019-02-27 13:49:43,845 [P23904/D2/T23] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:49:48,856 [P23904/D2/T26] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing df16971]
+2019-02-27 13:49:48,866 [P23904/D2/T26] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (9ms) [Timing df16971]
+2019-02-27 13:49:48,866 [P23904/D2/T26] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:49:53,867 [P23904/D2/T23] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 5361d50]
+2019-02-27 13:49:53,871 [P23904/D2/T23] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (4ms) [Timing 5361d50]
+2019-02-27 13:49:53,872 [P23904/D2/T23] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:49:58,887 [P23904/D2/T20] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing fd6abb9]
+2019-02-27 13:49:58,889 [P23904/D2/T20] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (1ms) [Timing fd6abb9]
+2019-02-27 13:49:58,889 [P23904/D2/T20] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:50:03,632 [P23904/D2/T26] DEBUG  Umbraco.Web.Scheduling.ScheduledTasks - Scheduled tasks executing [Timing b09c65b]
+2019-02-27 13:50:03,632 [P23904/D2/T26] DEBUG  Umbraco.Web.Scheduling.ScheduledTasks - Scheduled tasks complete (0ms) [Timing b09c65b]
+2019-02-27 13:50:03,632 [P23904/D2/T26] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks]  Task added Umbraco.Web.Scheduling.ScheduledTasks
+2019-02-27 13:50:03,836 [P23904/D2/T23] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing]  Task added Umbraco.Web.Scheduling.ScheduledPublishing
+2019-02-27 13:50:03,898 [P23904/D2/T20] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 002397c]
+2019-02-27 13:50:03,901 [P23904/D2/T20] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (3ms) [Timing 002397c]
+2019-02-27 13:50:03,901 [P23904/D2/T20] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:50:08,914 [P23904/D2/T23] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 1bd5872]
+2019-02-27 13:50:08,927 [P23904/D2/T23] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (13ms) [Timing 1bd5872]
+2019-02-27 13:50:08,927 [P23904/D2/T23] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:50:13,928 [P23904/D2/T20] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 39486d5]
+2019-02-27 13:50:13,931 [P23904/D2/T20] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (3ms) [Timing 39486d5]
+2019-02-27 13:50:13,931 [P23904/D2/T20] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:50:18,701 [P23904/D2/T26] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerRegistration]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+TouchServerTask
+2019-02-27 13:50:18,947 [P23904/D2/T20] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 874e9f0]
+2019-02-27 13:50:18,948 [P23904/D2/T20] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (1ms) [Timing 874e9f0]
+2019-02-27 13:50:18,948 [P23904/D2/T20] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:50:23,959 [P23904/D2/T26] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing afbabe2]
+2019-02-27 13:50:23,961 [P23904/D2/T26] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (3ms) [Timing afbabe2]
+2019-02-27 13:50:23,961 [P23904/D2/T26] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask
+2019-02-27 13:50:28,980 [P23904/D2/T20] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Syncing from database... [Timing 8e5d625]
+2019-02-27 13:50:28,982 [P23904/D2/T20] DEBUG  Umbraco.Core.Sync.DatabaseServerMessenger - Completed. (2ms) [Timing 8e5d625]
+2019-02-27 13:50:28,982 [P23904/D2/T20] DEBUG  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ServerInstProcess]  Task added Umbraco.Web.Components.DatabaseServerRegistrarAndMessengerComponent+InstructionProcessTask

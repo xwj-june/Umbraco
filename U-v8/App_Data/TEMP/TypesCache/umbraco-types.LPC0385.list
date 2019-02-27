@@ -618,27 +618,3 @@ Umbraco.Core.Models.PublishedContent.PublishedElementModel
 Umbraco.Core.Models.PublishedContent.PublishedContentModel
 
 
-Umbraco.Web.Trees.TreeController
-Umbraco.Web.Trees.TreeAttribute
-Umbraco.Web.Trees.ContentBlueprintTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.RelationTypeTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.MacrosTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.MemberGroupTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.ScriptsTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.DictionaryTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.StylesheetsTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.UserPermissionsTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.UserTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.ContentTypeTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.PackagesTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.MediaTypeTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.MemberTypeTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.DataTypeTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.LanguageTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.MemberTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.TemplatesTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.MediaTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.ContentTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.PartialViewMacrosTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Umbraco.Web.Trees.PartialViewsTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-

@@ -1,0 +1,91 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@{
+	Layout = null;
+}
+
+@* the fun starts here *@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Taranaki Home Lifestyle Expo</title>
+
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <!--<link href="css/fontawesome-5.3.1-alll.min.css" rel="stylesheet" />-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!--<link href="https://fonts.googleapis.com/css?family=Roboto|Signika:600" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Signika:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+
+<body class="">
+    <header class="l-header">
+        <a class="main-logo-link" href="/">
+            <img class="main-logo js-main-logo" src="content/logo/home-lifestyle-expo-logo.jpg" alt="Home Lifestyle Expo Logo" />
+        </a>
+        <button id="js-nav-toggle" class="hamburger hamburger--collapse nav-toggle" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        <nav class="main-nav js-main-nav">
+            <ul class="main-nav--menu">
+                <li class="main-nav--link"><a href="index.html">Home</a></li>
+                <li class="main-nav--link"><a href="visiting.html">Visiting</a></li>
+                <li class="main-nav--link"><a href="exhibitors.html">Exhibiting</a></li>
+                <li class="main-nav--link"><a href="inspiration.html">Home Impiration</a></li>
+                <li class="main-nav--link"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        @RenderBody()
+    </main>
+
+    <footer>
+        <section class="l-footer">
+            <div class="footer container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <div class="footer-item">
+                            <div class="rte">
+                                <p>Turn your home and lifestyle dreams into reality!Turn your home and lifestyle dreams into reality!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="footer-item footer-item-m-logo">
+                            <p>Proudly produced by</p>
+                            <img class="footer-logo" src="content/logo/npdc-logo.png" alt="Alternate Text" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="footer-item footer-item-m-right">
+                            <a class="footer-item--contact-link" href="#"><i class="footer-item--icon fas fa-phone"></i>06 759 6060</a>
+                            <a class="footer-item--contact-link" href="#"><i class="footer-item--icon fas fa-envelope"></i>enquiries@npdc.govt.nz</a>
+                            <a class="footer-item--social-link" href="#"><i class="footer-item--icon footer-item--icon-m-social fab fa-facebook"></i></a>
+                            <a class="footer-item--social-link" href="#"><i class="footer-item--icon footer-item--icon-m-social fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright text-center">
+                    <p>Copyright 2018 Home Expo & Lifestyle | Website empowered by <a href="https://www.newplymouthnz.com">NPDC</a></p>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <div class="go-to-top" id="js-go-to-top">
+        TOP
+    </div>
+
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/bootstrap/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

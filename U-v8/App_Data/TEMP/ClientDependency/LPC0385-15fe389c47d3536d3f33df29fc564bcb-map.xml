@@ -42,4 +42,31 @@
       <file name="/App_Plugins/ModelsBuilder/modelsbuilder.resource.js" />
     </files>
   </item>
+  <item key="L3VtYnJhY28vYXNzZXRzL2Nzcy9jYW52YXNkZXNpZ25lci5jc3M7" file="C:\Users\wenjunxie\Desktop\Documents\Learning\Umbraco\Umbraco\U-v8\App_Data\TEMP\ClientDependency\1_f8a270fe00a44a39aa222c831a6d43e2.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/umbraco/assets/css/canvasdesigner.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY28vbGliL3NpZ25hbHIvanF1ZXJ5LnNpZ25hbFIuanM7" file="C:\Users\wenjunxie\Desktop\Documents\Learning\Umbraco\Umbraco\U-v8\App_Data\TEMP\ClientDependency\1_438c0f3e8315406daf4d4e54688d0878.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/umbraco/lib/signalr/jquery.signalR.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY28vbGliL2pxdWVyeS9qcXVlcnkubWluLmpzOy91bWJyYWNvL2xpYi9hbmd1bGFyL2FuZ3VsYXIuanM7L3VtYnJhY28vbGliL3VuZGVyc2NvcmUvdW5kZXJzY29yZS1taW4uanM7L3VtYnJhY28vbGliL3VtYnJhY28vRXh0ZW5zaW9ucy5qczsvdW1icmFjby9qcy9hcHAuanM7L3VtYnJhY28vanMvdW1icmFjby5yZXNvdXJjZXMuanM7L3VtYnJhY28vanMvdW1icmFjby5zZXJ2aWNlcy5qczsvdW1icmFjby9qcy91bWJyYWNvLmludGVyY2VwdG9ycy5qczs" file="C:\Users\wenjunxie\Desktop\Documents\Learning\Umbraco\Umbraco\U-v8\App_Data\TEMP\ClientDependency\1_67661e6beb594d3580db8358f0297a02.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/umbraco/lib/jquery/jquery.min.js" />
+      <file name="/umbraco/lib/angular/angular.js" />
+      <file name="/umbraco/lib/underscore/underscore-min.js" />
+      <file name="/umbraco/lib/umbraco/Extensions.js" />
+      <file name="/umbraco/js/app.js" />
+      <file name="/umbraco/js/umbraco.resources.js" />
+      <file name="/umbraco/js/umbraco.services.js" />
+      <file name="/umbraco/js/umbraco.interceptors.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY28vanMvdW1icmFjby5wcmV2aWV3LmpzOw" file="C:\Users\wenjunxie\Desktop\Documents\Learning\Umbraco\Umbraco\U-v8\App_Data\TEMP\ClientDependency\1_3cb529b479ac40bd94f6a7ed2dc5fac1.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/umbraco/js/umbraco.preview.js" />
+    </files>
+  </item>
 </map>

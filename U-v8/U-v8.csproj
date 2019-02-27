@@ -406,8 +406,50 @@
     <Content Include="config\Lang\ru-RU.user.xml" />
     <Content Include="config\Lang\sv-SE.user.xml" />
     <Content Include="config\Lang\zh-CN.user.xml" />
+    <Content Include="contact.html" />
+    <Content Include="content\cover_bg.jpg" />
+    <Content Include="content\home.jpg" />
+    <Content Include="content\icons\favicon.png" />
+    <Content Include="content\images\example.jpg" />
+    <Content Include="content\images\exhibitor-2017.jpg" />
+    <Content Include="content\images\Footer-Logos-NPDC.png" />
+    <Content Include="content\images\inspiration\alberto-castillo-q.jpg" />
+    <Content Include="content\images\inspiration\deborah-cortelazzi.jpg" />
+    <Content Include="content\images\inspiration\gades.jpg" />
+    <Content Include="content\images\inspiration\jarek-ceborsk.jpg" />
+    <Content Include="content\images\inspiration\jason-briscoe.jpg" />
+    <Content Include="content\images\inspiration\neonbrand.jpg" />
+    <Content Include="content\images\MRF.jpg" />
+    <Content Include="content\images\quote.png" />
+    <Content Include="content\images\sponsor-logo-npdc.png" />
+    <Content Include="content\logo\home-lifestyle-expo-logo.jpg" />
+    <Content Include="content\logo\morefm.jpg" />
+    <Content Include="content\logo\npdc-logo.png" />
+    <Content Include="content\logo\resene-logo.png" />
+    <Content Include="content\logo\stuff.png" />
+    <Content Include="css\bootstrap\bootstrap-grid.css" />
+    <Content Include="css\bootstrap\bootstrap-grid.min.css" />
+    <Content Include="css\bootstrap\bootstrap-reboot.css" />
+    <Content Include="css\bootstrap\bootstrap-reboot.min.css" />
+    <Content Include="css\bootstrap\bootstrap.css" />
+    <Content Include="css\bootstrap\bootstrap.min.css" />
+    <Content Include="css\fontawesome-5.3.1-alll.css" />
+    <Content Include="css\fontawesome-5.3.1-alll.min.css" />
+    <Content Include="css\main.css" />
     <Content Include="default.aspx" />
+    <Content Include="exhibitors.html" />
     <Content Include="Global.asax" />
+    <Content Include="index.html" />
+    <Content Include="inspiration.html" />
+    <Content Include="scripts\bootstrap\bootstrap.bundle.js" />
+    <Content Include="scripts\bootstrap\bootstrap.bundle.min.js" />
+    <Content Include="scripts\bootstrap\bootstrap.js" />
+    <Content Include="scripts\bootstrap\bootstrap.min.js" />
+    <Content Include="scripts\jquery-3.3.1..js" />
+    <Content Include="scripts\jquery-3.3.1.min.js" />
+    <Content Include="scripts\js.cookie.min.js" />
+    <Content Include="scripts\main.js" />
+    <Content Include="visiting.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -436,6 +478,12 @@
     <Content Include="config\BackOfficeTours\getting-started.json" />
     <Content Include="config\applications.config" />
     <Content Include="config\404handlers.config" />
+    <Content Include="css\bootstrap\bootstrap-grid.css.map" />
+    <Content Include="css\bootstrap\bootstrap-grid.min.css.map" />
+    <Content Include="css\bootstrap\bootstrap-reboot.css.map" />
+    <Content Include="css\bootstrap\bootstrap-reboot.min.css.map" />
+    <Content Include="css\bootstrap\bootstrap.css.map" />
+    <Content Include="css\bootstrap\bootstrap.min.css.map" />
     <None Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
@@ -448,6 +496,12 @@
     <Content Include="Views\Partials\Grid\Bootstrap3-Fluid.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap2.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap2-Fluid.cshtml" />
+    <Content Include="scripts\bootstrap\bootstrap.bundle.js.map" />
+    <Content Include="scripts\bootstrap\bootstrap.bundle.min.js.map" />
+    <Content Include="scripts\bootstrap\bootstrap.js.map" />
+    <Content Include="scripts\bootstrap\bootstrap.min.js.map" />
+    <Content Include="Views\home.cshtml" />
+    <Content Include="Views\master.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -458,6 +512,9 @@
   <ItemGroup>
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.2.6.1\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.2.6.1\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="content\images\Logo\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
