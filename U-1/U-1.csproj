@@ -353,6 +353,8 @@
     <Content Include="Views\Partials\SiteLayout\_Footer.cshtml" />
     <Content Include="Views\Partials\SiteLayout\_MainNavigation.cshtml" />
     <Content Include="Views\Partials\SiteLayout\_MetaData.cshtml" />
+    <None Include="Properties\PublishProfiles\test-u1 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\test-u1 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

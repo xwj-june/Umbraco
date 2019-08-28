@@ -1,0 +1,4 @@
+﻿ 2019-04-16 03:18:44,740 [P4352/D3/T140] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-04-15 03:18:44
+ 2019-04-16 07:18:44,831 [P4352/D3/T180] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-04-15 07:18:44
+ 2019-04-16 11:19:03,518 [P4352/D3/T234] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-04-15 11:19:03
+ 2019-04-16 15:23:22,946 [P4352/D3/T151] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-04-15 15:23:22
